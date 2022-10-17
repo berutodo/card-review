@@ -8,13 +8,6 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Product Preview Card Component</title>
     <style>
-        .main-image {
-            background-repeat: no-repeat;
-            background-size: cover;
-            object-fit: fill;
-            background-image: url("https://i.ibb.co/RybP8Cz/image-product-desktop.jpg");
-        }
-        
         .main-div {
             background-color: #f2ebe3;
         }
@@ -34,7 +27,7 @@
     <!--DIV PRINCIPAL-->
     <div class="main-div flex flex-col sm:flex-row h-screen w-screen items-center justify-center bg-[#f2ebe3]">
         <!--DIVS MENORES-->
-        <div class="main-image h-[250px] w-[350px] sm:h-[400px] sm:w-[400px] bg-center rounded-t-lg sm:rounded-l-lg sm:rounded-tr-none"></div>
+        <img src="https://i.ibb.co/RybP8Cz/image-product-desktop.jpg" class="object-cover h-[250px] w-[350px] sm:h-[400px] sm:w-[400px] bg-center rounded-t-lg sm:rounded-l-lg sm:rounded-tr-none"></img>
         <div class="flex flex-col justify-center white-bg h-[350px] w-[350px] sm:h-[400px] sm:w-[400px] rounded-b-lg sm:rounded-r-lg sm:rounded-bl-none bg-white p-6 sm:p-8">
             <p class="sm:text-left text-justify font-[Montserrat] text-sm tracking-widest text-gray-500">
                 PERFUME</p>
